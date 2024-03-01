@@ -7,7 +7,7 @@ const productSchema = new mongoose.Schema({
     },
     price:{
         type:Number,
-        required: [true, 'product price must be provided in the info']
+        required: [true, 'product price must be provided in the info above']
     },
     featured:{
         type:Boolean,
